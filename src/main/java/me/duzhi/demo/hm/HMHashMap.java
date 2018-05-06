@@ -61,6 +61,7 @@ public class HMHashMap<K, V> implements HMMap<K, V> {
         }
     }
 
+    //保存队列信息
     private Entry<K, V> cacheEntry() {
         Entry<K, V> cacheEntry = null;//临时存储所有entry;
         for (int i = 0; i < entries.length; i++) {
