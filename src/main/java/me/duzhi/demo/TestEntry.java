@@ -10,7 +10,8 @@ import java.util.UUID;
 public class TestEntry {
 
     public static void main(String[] args) {
-        System.out.println(EncryptUtils.encryptPassword("123456", "abc"));
+        //System.out.println(EncryptUtils.encryptPassword("123456", "abc"));
+        System.out.println(TestEntry.class==TestEntry.class);
     }
 
     public static class EncryptUtils  extends HashKit {
